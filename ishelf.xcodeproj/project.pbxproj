@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		72CB3FAF1413797400E24DEC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72CB3FAE1413797400E24DEC /* UIKit.framework */; };
+		72CB3FB11413797400E24DEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72CB3FB01413797400E24DEC /* Foundation.framework */; };
+		72CB3FB31413797400E24DEC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72CB3FB21413797400E24DEC /* CoreGraphics.framework */; };
+		72CB3FB91413797400E24DEC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 72CB3FB71413797400E24DEC /* InfoPlist.strings */; };
+		72CB3FBC1413797400E24DEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 72CB3FBB1413797400E24DEC /* main.m */; };
+		72CB3FBF1413797400E24DEC /* ishelfAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 72CB3FBE1413797400E24DEC /* ishelfAppDelegate.m */; };
+		72CB3FC21413797400E24DEC /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72CB3FC01413797400E24DEC /* MainWindow.xib */; };
+		72CB3FC51413797400E24DEC /* ishelfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72CB3FC41413797400E24DEC /* ishelfViewController.m */; };
+		72CB3FC81413797400E24DEC /* ishelfViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72CB3FC61413797400E24DEC /* ishelfViewController.xib */; };
+		72CB3FCF1413797500E24DEC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72CB3FAE1413797400E24DEC /* UIKit.framework */; };
+		72CB3FD01413797500E24DEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72CB3FB01413797400E24DEC /* Foundation.framework */; };
+		72CB3FD11413797500E24DEC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72CB3FB21413797400E24DEC /* CoreGraphics.framework */; };
+		72CB3FD91413797500E24DEC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 72CB3FD71413797500E24DEC /* InfoPlist.strings */; };
+		72CB3FDC1413797500E24DEC /* ishelfTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 72CB3FDB1413797500E24DEC /* ishelfTests.h */; };
+		72CB3FDE1413797500E24DEC /* ishelfTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 72CB3FDD1413797500E24DEC /* ishelfTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		72CB3FD21413797500E24DEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72CB3FA11413797400E24DEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72CB3FA91413797400E24DEC;
+			remoteInfo = ishelf;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		72CB3FAA1413797400E24DEC /* ishelf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ishelf.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72CB3FAE1413797400E24DEC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		72CB3FB01413797400E24DEC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		72CB3FB21413797400E24DEC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		72CB3FB61413797400E24DEC /* ishelf-Info.plist */ = {isa = PBXFileReference; path = "ishelf-Info.plist"; sourceTree = "<group>"; };
+		72CB3FB81413797400E24DEC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		72CB3FBA1413797400E24DEC /* ishelf-Prefix.pch */ = {isa = PBXFileReference; path = "ishelf-Prefix.pch"; sourceTree = "<group>"; };
+		72CB3FBB1413797400E24DEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		72CB3FBD1413797400E24DEC /* ishelfAppDelegate.h */ = {isa = PBXFileReference; path = ishelfAppDelegate.h; sourceTree = "<group>"; };
+		72CB3FBE1413797400E24DEC /* ishelfAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ishelfAppDelegate.m; sourceTree = "<group>"; };
+		72CB3FC11413797400E24DEC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		72CB3FC31413797400E24DEC /* ishelfViewController.h */ = {isa = PBXFileReference; path = ishelfViewController.h; sourceTree = "<group>"; };
+		72CB3FC41413797400E24DEC /* ishelfViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ishelfViewController.m; sourceTree = "<group>"; };
+		72CB3FC71413797400E24DEC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ishelfViewController.xib; sourceTree = "<group>"; };
+		72CB3FCE1413797500E24DEC /* ishelfTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ishelfTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72CB3FD61413797500E24DEC /* ishelfTests-Info.plist */ = {isa = PBXFileReference; path = "ishelfTests-Info.plist"; sourceTree = "<group>"; };
+		72CB3FD81413797500E24DEC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		72CB3FDA1413797500E24DEC /* ishelfTests-Prefix.pch */ = {isa = PBXFileReference; path = "ishelfTests-Prefix.pch"; sourceTree = "<group>"; };
+		72CB3FDB1413797500E24DEC /* ishelfTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ishelfTests.h; sourceTree = "<group>"; };
+		72CB3FDD1413797500E24DEC /* ishelfTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ishelfTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72CB3FA71413797400E24DEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72CB3FAF1413797400E24DEC /* UIKit.framework in Frameworks */,
+				72CB3FB11413797400E24DEC /* Foundation.framework in Frameworks */,
+				72CB3FB31413797400E24DEC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72CB3FCA1413797500E24DEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72CB3FCF1413797500E24DEC /* UIKit.framework in Frameworks */,
+				72CB3FD01413797500E24DEC /* Foundation.framework in Frameworks */,
+				72CB3FD11413797500E24DEC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72CB3F9F1413797400E24DEC = {
+			isa = PBXGroup;
+			children = (
+				72CB3FB41413797400E24DEC /* ishelf */,
+				72CB3FD41413797500E24DEC /* ishelfTests */,
+				72CB3FAD1413797400E24DEC /* Frameworks */,
+				72CB3FAB1413797400E24DEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		72CB3FAB1413797400E24DEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72CB3FAA1413797400E24DEC /* ishelf.app */,
+				72CB3FCE1413797500E24DEC /* ishelfTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72CB3FAD1413797400E24DEC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72CB3FAE1413797400E24DEC /* UIKit.framework */,
+				72CB3FB01413797400E24DEC /* Foundation.framework */,
+				72CB3FB21413797400E24DEC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		72CB3FB41413797400E24DEC /* ishelf */ = {
+			isa = PBXGroup;
+			children = (
+				72CB3FBD1413797400E24DEC /* ishelfAppDelegate.h */,
+				72CB3FBE1413797400E24DEC /* ishelfAppDelegate.m */,
+				72CB3FC01413797400E24DEC /* MainWindow.xib */,
+				72CB3FC31413797400E24DEC /* ishelfViewController.h */,
+				72CB3FC41413797400E24DEC /* ishelfViewController.m */,
+				72CB3FC61413797400E24DEC /* ishelfViewController.xib */,
+				72CB3FB51413797400E24DEC /* Supporting Files */,
+			);
+			path = ishelf;
+			sourceTree = "<group>";
+		};
+		72CB3FB51413797400E24DEC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				72CB3FB61413797400E24DEC /* ishelf-Info.plist */,
+				72CB3FB71413797400E24DEC /* InfoPlist.strings */,
+				72CB3FBA1413797400E24DEC /* ishelf-Prefix.pch */,
+				72CB3FBB1413797400E24DEC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		72CB3FD41413797500E24DEC /* ishelfTests */ = {
+			isa = PBXGroup;
+			children = (
+				72CB3FDB1413797500E24DEC /* ishelfTests.h */,
+				72CB3FDD1413797500E24DEC /* ishelfTests.m */,
+				72CB3FD51413797500E24DEC /* Supporting Files */,
+			);
+			path = ishelfTests;
+			sourceTree = "<group>";
+		};
+		72CB3FD51413797500E24DEC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				72CB3FD61413797500E24DEC /* ishelfTests-Info.plist */,
+				72CB3FD71413797500E24DEC /* InfoPlist.strings */,
+				72CB3FDA1413797500E24DEC /* ishelfTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72CB3FA91413797400E24DEC /* ishelf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72CB3FE11413797500E24DEC /* Build configuration list for PBXNativeTarget "ishelf" */;
+			buildPhases = (
+				72CB3FA61413797400E24DEC /* Sources */,
+				72CB3FA71413797400E24DEC /* Frameworks */,
+				72CB3FA81413797400E24DEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ishelf;
+			productName = ishelf;
+			productReference = 72CB3FAA1413797400E24DEC /* ishelf.app */;
+			productType = "com.apple.product-type.application";
+		};
+		72CB3FCD1413797500E24DEC /* ishelfTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72CB3FE41413797500E24DEC /* Build configuration list for PBXNativeTarget "ishelfTests" */;
+			buildPhases = (
+				72CB3FC91413797500E24DEC /* Sources */,
+				72CB3FCA1413797500E24DEC /* Frameworks */,
+				72CB3FCB1413797500E24DEC /* Resources */,
+				72CB3FCC1413797500E24DEC /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72CB3FD31413797500E24DEC /* PBXTargetDependency */,
+			);
+			name = ishelfTests;
+			productName = ishelfTests;
+			productReference = 72CB3FCE1413797500E24DEC /* ishelfTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72CB3FA11413797400E24DEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = tencent;
+			};
+			buildConfigurationList = 72CB3FA41413797400E24DEC /* Build configuration list for PBXProject "ishelf" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 72CB3F9F1413797400E24DEC;
+			productRefGroup = 72CB3FAB1413797400E24DEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72CB3FA91413797400E24DEC /* ishelf */,
+				72CB3FCD1413797500E24DEC /* ishelfTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72CB3FA81413797400E24DEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72CB3FB91413797400E24DEC /* InfoPlist.strings in Resources */,
+				72CB3FC21413797400E24DEC /* MainWindow.xib in Resources */,
+				72CB3FC81413797400E24DEC /* ishelfViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72CB3FCB1413797500E24DEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72CB3FD91413797500E24DEC /* InfoPlist.strings in Resources */,
+				72CB3FDC1413797500E24DEC /* ishelfTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		72CB3FCC1413797500E24DEC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72CB3FA61413797400E24DEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72CB3FBC1413797400E24DEC /* main.m in Sources */,
+				72CB3FBF1413797400E24DEC /* ishelfAppDelegate.m in Sources */,
+				72CB3FC51413797400E24DEC /* ishelfViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72CB3FC91413797500E24DEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72CB3FDE1413797500E24DEC /* ishelfTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		72CB3FD31413797500E24DEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72CB3FA91413797400E24DEC /* ishelf */;
+			targetProxy = 72CB3FD21413797500E24DEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		72CB3FB71413797400E24DEC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72CB3FB81413797400E24DEC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		72CB3FC01413797400E24DEC /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72CB3FC11413797400E24DEC /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		72CB3FC61413797400E24DEC /* ishelfViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72CB3FC71413797400E24DEC /* en */,
+			);
+			name = ishelfViewController.xib;
+			sourceTree = "<group>";
+		};
+		72CB3FD71413797500E24DEC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72CB3FD81413797500E24DEC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		72CB3FDF1413797500E24DEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		72CB3FE01413797500E24DEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		72CB3FE21413797500E24DEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ishelf/ishelf-Prefix.pch";
+				INFOPLIST_FILE = "ishelf/ishelf-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		72CB3FE31413797500E24DEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ishelf/ishelf-Prefix.pch";
+				INFOPLIST_FILE = "ishelf/ishelf-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		72CB3FE51413797500E24DEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ishelf.app/ishelf";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ishelfTests/ishelfTests-Prefix.pch";
+				INFOPLIST_FILE = "ishelfTests/ishelfTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		72CB3FE61413797500E24DEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ishelf.app/ishelf";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ishelfTests/ishelfTests-Prefix.pch";
+				INFOPLIST_FILE = "ishelfTests/ishelfTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72CB3FA41413797400E24DEC /* Build configuration list for PBXProject "ishelf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72CB3FDF1413797500E24DEC /* Debug */,
+				72CB3FE01413797500E24DEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72CB3FE11413797500E24DEC /* Build configuration list for PBXNativeTarget "ishelf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72CB3FE21413797500E24DEC /* Debug */,
+				72CB3FE31413797500E24DEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		72CB3FE41413797500E24DEC /* Build configuration list for PBXNativeTarget "ishelfTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72CB3FE51413797500E24DEC /* Debug */,
+				72CB3FE61413797500E24DEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 72CB3FA11413797400E24DEC /* Project object */;
+}

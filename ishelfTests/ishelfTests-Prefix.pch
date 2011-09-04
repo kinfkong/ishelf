@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'ishelfTests' target in the 'ishelfTests' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif
