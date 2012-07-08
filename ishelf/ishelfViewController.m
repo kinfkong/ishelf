@@ -7,8 +7,12 @@
 //
 
 #import "ishelfViewController.h"
+#import "ZBarSDK.h"
+#import "KKZBarController.h"
 
 @implementation ishelfViewController
+
+@synthesize scanButton;
 
 - (void)dealloc
 {
@@ -25,13 +29,15 @@
 
 #pragma mark - View lifecycle
 
-/*
+
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    //[self.view addSubview:mainTabController.view];
+    
 }
-*/
+
 
 - (void)viewDidUnload
 {
@@ -46,4 +52,27 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
+-(void) imagePickerController: (UIImagePickerController*) reader didFinishPickingMediaWithInfo: (NSDictionary*) info
+{
+    id<NSFastEnumeration> results = [info objectForKey:ZBarReaderControllerResults];
+    ZBarSymbol *symbol = nil;
+    for (symbol in results) {
+        break;
+    }
+}
+
+-(IBAction) onScan:(id) sender {
+    /*
+    ZBarReaderViewController *reader = [ZBarReaderViewController new];
+    reader.readerDelegate = self;
+    [reader.scanner setSymbology: ZBAR_QRCODE
+                          config: ZBAR_CFG_ENABLE
+                              to: 0];
+    reader.readerView.zoom = 1.0;
+     */
+    KKZBarController* controller = [[KKZBarController alloc] init];
+    [self presentModalViewController: controller
+                            animated: YES];
+    [controller release];
+}
 @end

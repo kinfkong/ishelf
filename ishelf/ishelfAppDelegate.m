@@ -9,6 +9,7 @@
 #import "ishelfAppDelegate.h"
 
 #import "ishelfViewController.h"
+#import "ZBarSDK.h"
 
 @implementation ishelfAppDelegate
 
@@ -20,7 +21,10 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
-     
+    /*
+     ZBarReaderViewController *reader = [ZBarReaderViewController new];
+    self.viewController = reader;
+     */
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     return YES;
@@ -71,5 +75,23 @@
     [_viewController release];
     [super dealloc];
 }
+/*
+//for ios version below 4.2
+- (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url
+{
+	if( [viewController.weibo handleOpenURL:url] )
+		return TRUE;
+	
+	return TRUE;
+}
+
+//for ios version is or above 4.2
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
+{
+	if( [viewController.weibo handleOpenURL:url] )
+		return TRUE;
+	
+	return TRUE;
+}*/
 
 @end

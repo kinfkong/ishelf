@@ -7,9 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ZBarSDK.h"
+#import "KKMainTabController.h"
 
-@interface ishelfViewController : UIViewController {
-    
+@interface ishelfViewController : KKMainTabController <ZBarReaderDelegate> {
+    IBOutlet UIButton* scanButton;
 }
+
+@property (nonatomic, retain) IBOutlet UIButton* scanButton;
+
+
+-(IBAction) onScan:(id) sender;
 
 @end
